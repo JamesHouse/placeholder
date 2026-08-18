@@ -3,12 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jameshouse.org</title>
+
+    <title>James House</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: #111418;
+            color: #e8e8e8;
+
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, Helvetica, Arial, sans-serif;
+
+            text-align: center;
+        }
+
+        main {
+            padding: 40px;
+            max-width: 600px;
+        }
+
+        .initials {
+            width: 72px;
+            height: 72px;
+            margin: 0 auto 28px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border: 1px solid #555;
+            border-radius: 50%;
+
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 3px;
+
+            color: #bbb;
+        }
+
+        h1 {
+            margin: 0 0 12px;
+
+            font-size: 42px;
+            font-weight: 500;
+            letter-spacing: -1px;
+        }
+
+        .domain {
+            margin-bottom: 40px;
+
+            color: #777;
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin: 8px 0;
+
+            color: #aaa;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .move-along {
+            margin-top: 28px;
+            color: #666;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 24px;
+
+            color: #444;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>James House</h1>
-    <p>This domain is used for personal email.</p>
-    <p>There's nothing to see here.</p>
-    <p>Move along.</p>
+
+    <main>
+        <div class="initials">JH</div>
+
+        <h1>James House</h1>
+
+        <div class="domain">
+            jameshouse.org
+        </div>
+
+        <p>This domain is used for personal email.</p>
+        <p>There's nothing to see here.</p>
+
+        <p class="move-along">Move along.</p>
+    </main>
+
+    <footer>
+        &copy; 2026 James House
+    </footer>
+
 </body>
 </html>
